@@ -1,5 +1,8 @@
 # Exercise 1.7
+## Question
+Consider the following three example classes. These are OO faults taken from Joshua Bloch’s Effective Java, Second Edition. Answer the following questions about each.
 
+## Answer
 ## Vehicle, Truck
 ### a) Explain what is wrong with the given code. Describe the fault precisely by proposing a modification to the code.
 
