@@ -1,4 +1,4 @@
-# Exercise 7.2.2-1
+# Exercise 7.2.2-5
 ## Question
 The graph defined by the following sets:
 - N = {1, 2, 3, 4, 5, 6, 7}
@@ -44,6 +44,7 @@ The side trip is [4,6,1,2,4]
 ### (e) List the test requirements for Node Coverage, Edge Coverage, and Prime Path Coverage on the graph.
 * Node coverage: TR = {1,2,3,4,5,6,7}
 * Edge coverage: TR = {(1,2), (1,7), (2,3), (2,4), (3,2), (4,5), (4,6), (5,6), (6,1)}
+* Prime Path Coverage: TR = {(3,2,4,5,6,1,7), (2,4,5,6,1,2), (1,2,4,5,6,1), (3,2,4,6,1,7), (5,6,1,2,4,5), (6,1,2,4,5,6), (4,5,6,1,2,4), (4,5,6,1,2,3), (2,4,6,1,2), (1,2,4,6,1), (6,1,2,4,6), (4,6,1,2,3), (4,6,1,2,4), (3,2,3), (2,3,2)}
 
 ### (f) List test paths from the given set that achieve Node Coverage but not Edge Coverage on the graph.
 * Test paths that achived Node coverage: p3 (p1 missed 3, p2 missed 5)

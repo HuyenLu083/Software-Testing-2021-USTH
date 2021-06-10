@@ -1,6 +1,6 @@
 # Exercise 7.4.4
 ## Question
-Use the following methods trash() and takeOut():
+Use the following methods <span style="font-family:Courier">trash()</span> and <span style="font-family:Courier">takeOut()</span>:
 ```Java
 /* 1 */ public void trash (int x) 
 /* 2 */ {

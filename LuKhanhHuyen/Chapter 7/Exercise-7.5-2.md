@@ -2,6 +2,7 @@
 ## Question
 For the following questions a–c, consider the FSM that models a (simplified) programmable thermostat. Suppose the variables that
 define the state and the methods that transition between states are:
+
 ```
 partOfDay : {Wake, Sleep}
 temp : {Low, High}
@@ -17,6 +18,7 @@ public void up();
 // Effects: Make current temp lower, if possible
 public void down();
 ```
+## Answer
 ### a) How many states are there?
 States (wake, low), (wake, high), (sleep, low), (sleep, high)
 
@@ -31,16 +33,16 @@ States (wake, low), (wake, high), (sleep, low), (sleep, high)
     (sleep, high)   -> down()       -> (sleep, low)
 
 ### c) A test case is simply a sequence of method calls. Provide a test set that satisfies Edge Coverage on your graph.
-[1,3]
-[1,2]
-[1,4]
-[2,4]
-[2,3]
-[2,1]
-[3,1]
-[3,4]
-[3,2]
-[4,2]
-[4,1]
+[1,3] 
+[1,2] 
+[1,4] 
+[2,4] 
+[2,3] 
+[2,1] 
+[3,1] 
+[3,4] 
+[3,2] 
+[4,2] 
+[4,1] 
 [4,3]
 

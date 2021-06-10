@@ -1,5 +1,6 @@
 # Exercise 3.5
-## Find the flaw and describe it in terms of the RIPR model. 
+## Question
+Find the flaw and describe it in terms of the RIPR model. 
 ```Java
 @Test
 public void testSort()
@@ -13,6 +14,7 @@ public void testSort()
 }
 ```
 
+## Answer
 This assertion only check for the first element.
 
 RIRP model:

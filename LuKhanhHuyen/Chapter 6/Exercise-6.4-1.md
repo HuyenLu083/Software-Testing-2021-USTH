@@ -1,7 +1,9 @@
 # Exercise 6.4-1
 
-## The restriction on interleaving <span style="font-family:Courier">next()</span> and <span style="font-family:Courier">remove()</span> calls is quite complex. The JUnit tests in <span style="font-family:Courier">IteratorTest.java</span> only devote onetest for this situation, which may not be enough. Refine the input domain model with one or more additional characteristics to probe this behavior, and implement these tests in JUnit.
+## Question
+The restriction on interleaving <span style="font-family:Courier">next()</span> and <span style="font-family:Courier">remove()</span> calls is quite complex. The JUnit tests in <span style="font-family:Courier">IteratorTest.java</span> only devote onetest for this situation, which may not be enough. Refine the input domain model with one or more additional characteristics to probe this behavior, and implement these tests in JUnit.
 
+## Answer
 The following characteristics have been identified and are used to generate tests for the methods:
 - C1: iterator has more values
 - C2: iterator returns a non-null object reference

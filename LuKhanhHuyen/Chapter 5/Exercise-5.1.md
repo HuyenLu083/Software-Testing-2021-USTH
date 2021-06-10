@@ -1,6 +1,8 @@
 # Exercise 5.1
-## Suppose that coverage criterion C1 subsumes coverage criterion C2. Further suppose that test set T1 satisfies C1 on program P, and test set T2 satisfies C2, also on P.
+## Question
+Suppose that coverage criterion C1 subsumes coverage criterion C2. Further suppose that test set T1 satisfies C1 on program P, and test set T2 satisfies C2, also on P.
 
+## Answer
 ### (a) Does T1 necessarily satisfy C2?
 Yes, because T1 satisfies C1 and C1 subsumes C2.
 

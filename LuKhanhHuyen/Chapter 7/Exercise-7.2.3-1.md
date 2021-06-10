@@ -1,4 +1,11 @@
 # Exercise 7.2.3-1
+## Question
+Below are four graphs, each of which is defined by the sets of nodes,
+initial nodes, final nodes, edges, and defs and uses. Each graph also
+contains some test paths. Answer the following questions about each
+graph.
+
+## Answer
 ### a) Draw the graph.
 * Graph 1:
 

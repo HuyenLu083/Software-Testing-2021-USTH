@@ -1,5 +1,8 @@
 # Exercise 4.1
-## Calc.java
+## Question
+Submit printouts of all tests, your final version of Calc, and a screenshot showing that all tests pass.
+
+### Calc.java
 ```Java
 package com.company;
 
@@ -22,8 +25,8 @@ public class Calc {
     }
 }
 ```
-
-## TestCalc.java
+## Answer
+### TestCalc.java
 ```Java
 package com.company;
 
@@ -56,3 +59,6 @@ public class TestCalc {
     }
 }
 ```
+
+### Proof
+![title](Ex-4.1.png)
